@@ -1,0 +1,12 @@
+######################### Hero Area ##############################
+hero_area:
+  background_image : "/assets/images/bg/banner-2.png"
+  subtitle: "(SI-SDR-UG)"
+  title : "South Indian SDR User Group"
+  content : "(SI-SDR-UG)"
+  #image : "/assets/images/banner/banner-img-2.png"
+  # button:
+  #   enable : true
+  #   label : "contact me"
+  #   link : "/contact"
+
