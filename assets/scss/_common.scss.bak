@@ -87,8 +87,6 @@ blockquote {
     margin-inline-end: 40px;
 }
 .time-text {
-	color: #4CBB17;
+	color: #F5B041;
 }
-.time-site {
-   color: #F5B041;
-}
+
