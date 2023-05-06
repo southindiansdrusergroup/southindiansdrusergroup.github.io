@@ -1,9 +1,3 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
  :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -430,8 +424,18 @@ mark {
     max-width: 100%;
     height: auto;
 }
+/* .img-head-logo {
+    width: 20%;
+    height: auto;
+} */
+/* @media (max-width: 575px) {
+    .img-head-logo {
+        width: 200px;
+        height: 50px;
+    }
+} */
 .img-fluid-logo {
-    max-width: 20%;
+    max-width: 40%;
     height: auto;
 }
 .img-thumbnail {
@@ -9151,3 +9155,40 @@ a.text-dark:hover {
         border-color: #dee2e6;
     }
 }
+
+.fa-bars:before {
+    content: "\f0c9"; }
+
+    .fa-toggle-off:before {
+        content: "\f204"; }
+      
+      .fa-toggle-on:before {
+        content: "\f205"; }
+/* .fa, .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    }
+
+    @media (max-width: 767px) {
+        .navbar-collapse {
+          text-align: center;
+          padding: 20px;
+        }
+        #main-nav .navbar-nav .nav-link {
+          padding: 0px;
+        }
+        .navbar-toggler span {
+          color: #fff;
+        }
+      }
+
+@media (max-width: 991px) {
+ .navbar {
+    background: #1f1f40;
+    z-index: 99999;
+}
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+} */
